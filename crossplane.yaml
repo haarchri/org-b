@@ -13,4 +13,7 @@ metadata:
       entirely from scratch.
 spec:
   crossplane:
-    version: ">=v1.7.0-0"
+    version: ">=v1.12.1-0"
+  dependsOn:
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-nop
+      version: ">=v0.2.0"
